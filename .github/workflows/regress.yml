@@ -1,0 +1,23 @@
+name: Regress
+
+on: [push, workflow_dispatch, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: norio-nomura/action-swiftlint@3.2.1
+      with: { args: --strict }
+
+  test:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: maxim-lobanov/setup-xcode@v1
+      with: { xcode-version: '14.2' }
+    - name: Testing
+      # https://github.com/actions/runner-images/issues/1665
+      run: |
+        brew install xcbeautify
+        swift test | xcbeautify
