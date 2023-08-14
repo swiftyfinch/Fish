@@ -3,7 +3,12 @@
   <img src="https://github.com/swiftyfinch/Fish/assets/64660122/005f8c63-2b2a-46e5-b1d2-35c131b404f1" />
   <br>
   Fish
+  <br><br>
+  <img src="https://img.shields.io/badge/Platform-macOS-2679eb" />
+  <a href="https://swiftpackageindex.com/swiftyfinch/Fish"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswiftyfinch%2FFish%2Fbadge%3Ftype%3Dswift-versions" /></a>
   <br>
+  <img src="https://img.shields.io/badge/Press_★_to_pay_respects-fff?logo=github&logoColor=black" />
+  <a href="https://twitter.com/swiftyfinch"><img src="https://img.shields.io/badge/SwiftyFinch-blue?logo=twitter&logoColor=white" /></a>
 </h3>
 
 # Motivation
