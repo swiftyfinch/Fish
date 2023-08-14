@@ -1,6 +1,6 @@
 <br>
 <h3 align="center">
-  <img src="https://github.com/swiftyfinch/Fish/assets/64660122/bf12977c-b864-4f71-9e21-153136062ebc" />
+  <img src="https://github.com/swiftyfinch/Fish/assets/64660122/005f8c63-2b2a-46e5-b1d2-35c131b404f1" />
   <br>
   Fish
   <br>
