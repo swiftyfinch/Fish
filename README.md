@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/Platform-macOS-2679eb" />
   <a href="https://swiftpackageindex.com/swiftyfinch/Fish"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fswiftyfinch%2FFish%2Fbadge%3Ftype%3Dswift-versions" /></a>
   <br>
+  <a href="https://swiftpackageindex.com/swiftyfinch/Fish/main/documentation/fish"><img src="https://img.shields.io/badge/Docs-4BA057?logo=googledocs&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Press_★_to_pay_respects-fff?logo=github&logoColor=black" />
   <a href="https://twitter.com/swiftyfinch"><img src="https://img.shields.io/badge/SwiftyFinch-blue?logo=twitter&logoColor=white" /></a>
 </h3>
