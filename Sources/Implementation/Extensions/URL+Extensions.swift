@@ -14,7 +14,9 @@ extension URL {
     var parent: URL { deletingLastPathComponent() }
 
     func relativePath(to relativePath: String) -> String {
-        path.relativePath(to: relativePath)
+        let resolvedPath = resolvingSymlinksInPath().path
+        let resolvedRelativePath = URL(fileURLWithPath: relativePath).resolvingSymlinksInPath().path
+        return resolvedPath.relativePath(to: resolvedRelativePath)
     }
 
     func creationDate() throws -> Date {
