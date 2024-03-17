@@ -60,8 +60,8 @@ extension FileManager.DirectoryEnumerator {
     func folderURLs() throws -> [URL] {
         try compactMap { element in
             guard let url = (element as? URL)?.standardizedFileURL else { return nil }
-            let resourceValues = try url.resourceValues(forKeys: [.isRegularFileKey])
-            let isDirectory = (resourceValues.isRegularFile != true)
+            let resourceValues = try url.resourceValues(forKeys: [.isDirectoryKey])
+            let isDirectory = (resourceValues.isDirectory == true)
             return isDirectory ? url : nil
         }
     }
