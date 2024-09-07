@@ -47,8 +47,7 @@ extension FilesManager: IFileManager {
 
     func read(file: URL) throws -> String {
         let data = try readData(file: file)
-        guard let text = String(data: data, encoding: .utf8) else { throw FishError.damagedData }
-        return text
+        return String(decoding: data, as: UTF8.self)
     }
 
     func readData(file: URL) throws -> Data {
