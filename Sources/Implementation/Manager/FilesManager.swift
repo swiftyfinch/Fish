@@ -30,7 +30,7 @@ extension FilesManager {
     func enumerator(for path: String,
                     deep: Bool,
                     keys: [URLResourceKey]? = nil) throws -> FileManager.DirectoryEnumerator {
-        var options: FileManager.DirectoryEnumerationOptions = [.skipsHiddenFiles]
+        var options: FileManager.DirectoryEnumerationOptions = []
         if !deep { options.formUnion([.skipsSubdirectoryDescendants, .skipsPackageDescendants]) }
         var keys = keys ?? []
         if !keys.contains(.isRegularFileKey) { keys.append(.isRegularFileKey) }
